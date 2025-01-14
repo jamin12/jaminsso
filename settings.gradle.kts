@@ -3,3 +3,6 @@ plugins {
 }
 rootProject.name = "jaminsso"
 include("app")
+include("domain")
+include("application")
+include("adapter")
