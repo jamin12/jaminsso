@@ -5,3 +5,7 @@ tasks.withType<org.springframework.boot.gradle.tasks.bundling.BootJar> {
 tasks.withType<Jar> {
     enabled = true
 }
+
+dependencies {
+    implementation(project(":domain"))
+}

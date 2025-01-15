@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/jamin_sso
+    username: root
+    password: energyx1!
+  data:
+    r2dbc:
+      repositories:
+        # R2DBC 기반의 리포지토리를 스캔하고, 자동으로 빈으로 등록하도록 활성화하는 역할
+        enabled: true
