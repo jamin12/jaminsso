@@ -4,7 +4,6 @@ import org.jamin.models.account.Accounts
 import org.jamin.out.persistence.account.entity.AccountsR2Entity
 import org.mapstruct.Mapper
 import org.mapstruct.Mapping
-import org.mapstruct.MappingConstants
 
 @Mapper(componentModel = "spring")
 interface AccountsR2Mapper {
